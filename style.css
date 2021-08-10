@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://forum.bubble.io/uploads/default/original/3X/e/0/e03d1a68f2f6db9e8b244987f166469316af8fea.gif);
+  background-size: 100%;
+}
+
+.border {
+  position: relative;
+  width: 290px;
+  height: 380px;
+  background: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
+  display: grid;
+  place-items: center;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.space {
+  margin-top: 240px;
+}
+.content {
+  position: absolute;
+  width: 280px;
+  height: 370px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 1rem;
+}
